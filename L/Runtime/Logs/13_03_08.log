@@ -1,0 +1,17 @@
+[ 2013-03-08T19:01:41+08:00 ] 127.0.0.1 /yuejian/l.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014291s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001903s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001775s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001645s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007449s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002332s ]
+

@@ -1,0 +1,29 @@
+body{padding:0;margin:0;font-size: 63%;line-height: 63%;font-family: "微软雅黑","黑体";}
+#bg{position:absolute;top:0px;left:50%;margin-left:-840px;width:1680px;height:956px;background: url(../images/welcome/guest.jpg) 0 0 no-repeat black;background-size: 100%;}
+#main{height:342px;width:802px;position: absolute;top:228px;left:50%;margin-left:-410px;background-position:0px -157px;padding:7px;}
+#container{height:100%;width:100%;}
+#container div{position: absolute;}
+.bacimg{background-image:url(../images/welcome/welcome.png);}
+.inputarea{width:341px;height:54px; background-position: 0px 0px;}
+.input{outline:none;border:none;color:#B0B0B0;width: 220px;font-size: 2em;line-height :1em;margin:16px 0 0 10px;font-family: "微软雅黑","黑体"}
+#imagediv{display:none;border:1px #FFFFFF solid;overflow:hidden;position:absolute;top:52px;left:543px;height:238px;width:181px;text-align: center;}
+#imagediv img{width: 181px;vertical-align: middle;}
+#wel_code{top:141px;left:53px;}
+.subbtn{text-decoration:none;font-size:2em;color:#ffffff;text-align:center;margin-top:5px;display:inline-block;width: 73px;height:44px;background-image: url(../images/welcome/welcome.png); background-position: 0px -65px;}
+.alert{display:none;width:200px;top:45px;left:10px;color: #FFFFFF;font-size: 1.8em;line-height: 1em;}
+#welcome{display:none;font-weight:bold;top:70px;left:60px;color: #FFFFFF;font-size: 2em;font-size: 2em;}
+#welcome p{line-height: 1em;}
+#welcome span{font-size:1.8em;line-height: 1em;}
+#conti{margin-top: 70px;}
+.btn{background-image: url(../images/bitimg.png);background-position: -523px -444px;height:34px;width:77px;}
+.btn:hover{background-position: -523px -492px;}
+.comp{background-position: -442px -444px;top:130px;}
+.comp:hover{background-position: -442px -492px;}
+#passworddiv{display:none;top:116px;left:53px;}
+#sepass{top:65px;}
+#pass input,#sepass input{width:290px;}
+#username input{width:290px;font-size: 1em;}
+.alerm{margin-top:16px;display:none;float:right;background-position: 0px -119px;height:22px;width:22px;}
+.wel_alert{margin-top: 96px;margin-left: 100px;font-size: 0.8em;font-weight: normal;color:#FFFFFF;}
+
+

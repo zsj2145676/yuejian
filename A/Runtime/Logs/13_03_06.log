@@ -1,0 +1,10 @@
+[ 2013-03-06T23:10:21+08:00 ] 127.0.0.1 /yuejian/a.php?m=Account&a=logout
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+
+[ 2013-03-06T23:26:45+08:00 ] 127.0.0.1 /yuejian/a.php?m=Account&a=logout
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+

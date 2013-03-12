@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-quiv="Content-Type" charset=utf-8 />
+        <title>在这里，约见你</title>
+        <link rel="stylesheet" type="text/css" href="__CSS__/base.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="__CSS__/sell.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="__CSS__/datepicker.css" media="screen"/>
+        <link rel="icon" href="__IMG__/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="__IMG__/favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
+        <script src="__JS__/lib/modernizr-transitions.js"></script>
+        <script type="text/javascript" src="__JS__/lib/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="__JS__/lib/datepicker.js" charset="utf-8"></script>
+        <script src="__JS__/function/base.js" type="text/javascript"></script>
+    </head>
+    <body>
+<!--        <?php include "../inc/auth.php"; ?>-->
+        <include file="./Home/Tpl/pages/headlogo.html" />
+        <div id="include" style="height:90%;">
+            <div class="paper">
+                <div class="leftpaper">
+                    <div class="paperinfo">
+                        <p class="tit" style="margin-top:3px;">基本信息</p>
+                        <p style="margin-top:13px;line-height:16px;">
+                            发布买时间的第一步，也是最关键的一步请认真填写
+                        </p>
+                        <p class="tit" style="margin-top:142px;">约见金额</p>
+                        <p style="margin-top:13px;line-height:16px;">
+                            设定约见初始价额，以及当买家因违约等因素无法完成时，约见定金的处理方式
+                        </p>
+                        <br />
+                        <p><a href="javascript:;">了解约见公益事业</a></p>
+                        <p class="tit" style="margin-top:123px;">约见地点</p>
+                        <p style="margin-top:13px;line-height:16px;">
+                            我们将依据您所确定的地点通知买家届时会面，在地图上确定地点将增加位置准确性
+                        </p>
+                        <p class="tit" style="margin-top:140px;">发布成功</p>
+                        <p style="margin-top:13px;line-height:16px;">
+                            恭喜您已经成功发布一条约见信息，我们将会在3日后于您的个人主页公布买家筛选结果，请务必关注，以免因错过时间影响信誉值
+                        </p>
+                    </div>
+                    <div class="ruler">
+                        <div class="rul_bin">
+                            <ul style="margin-top: -1px;">
+                                <li class="rul_bin_cur" style="background-position:-69px -156px;"></li>    
+                                <li style="background-position:-105px -156px;"></li> 
+                                <li style="background-position:-141px -156px;"></li> 
+                                <li style="background-position:-177px -156px;"></li> 
+                            </ul>
+                        </div>
+                        <ul>
+                            <li class="rul_cur"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="midpaper"></div>
+                <div class="rightpaper">
+                    <div class="paperin" style="margin-top:10px;">
+                       <ul>
+                            <li style="margin-right:10px;">约见时间</li>
+                            <li><div class="login_ipt paper_input"><input id="meettime" type="text" /></div></li>
+                        </ul>
+                        <ul>
+                            <li style="margin-right:10px;">约见描述</li> 
+                            <li class="paper_input login_ipt"><input type="text" placeholder="随便聊聊~" id="description"/></li>
+                        </ul>
+                        <div class="sellfrexam">
+                            <p>例：
+                                <a href="javascript:;">一起吃个饭</a>&nbsp;
+                                <a href="javascript:;">出去运动一下</a>&nbsp;
+                                <a href="javascript:;">谈天说地</a><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="javascript:;">一起喝茶</a>&nbsp;
+                                <a href="javascript:;">一起钓鱼</a>&nbsp;
+                                <a href="javascript:;">散散步</a>&nbsp;
+                                <a href="javascript:;">一起听音乐会</a>  
+                            </p>
+                        </div>
+                        <ul style="margin-top:51px;">
+                            <li>约见价格</li>
+                            <li><div class="login_ipt register_ipt"><p class="moneyimg"></p><input id="alertmoney" type="text" /></div></li>
+                        </ul>
+                        <ul style='visibility:hidden;'>
+                            <li style="margin-right:10px;">约见收入</li>
+                            <li style="font-size:10px;text-align:left;width:200px;margin-left:0px;"><a href="javascript:;"><div class="select_welfare_span"></div></a><span style="vertical-align: top;float:left;">捐助公益事业</span><a href="javascript:;"><div class="select_welfare_span" style="margin-left:5px;"></div></a><span style="vertical-align: top;float:left;">打入个人账户</span>
+                                <div class="select_subpro" style="margin:30px 0 0 20px;" >
+                                    <ul style="margin-left:0px;width:200px;">
+                                        <li><a class="checkbox" href="javascript:;"></a><a class="a_tit" href="javascript:;" onmouseover="openintro('1')" onmouseout="openintro('')">支持梦想</a></li>
+                                        <li><a class="checkbox" href="javascript:;"></a><a class="a_tit" href="javascript:;" onclick="javascript:window.open('http://www.raleigh.org.cn');" onmouseover="openintro('2')" onmouseout="openintro('')">雷利基金</a></li><br />
+                                        <li><a class="checkbox" href="javascript:;"></a><a class="a_tit" href="javascript:;" onmouseover="openintro('3')" onmouseout="openintro('')">西儿基金</a></li>
+                                        <li><a class="checkbox" href="javascript:;"></a><a class="a_tit" href="javascript:;" onmouseover="openintro('4')" onmouseout="openintro('')">重病医疗</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul style="margin-top:113px;">
+                            <li style="text-align:left;">
+                                <div class="paper_pla"><span>约见地点</span>
+                                    <input type="text" id="meetaddress"/>
+                                    <a href="javascript:;"><span class="loc"></span></a>
+                                </div>
+                                <div id="paper_map"></div>
+                            </li>
+                        </ul>
+                        <ul style="margin-top:150px">
+                            <li><div style="margin:50px 0px 0px 100px;height:47px;width:110px;background-image:url(__IMG__/sell.png);background-position:-163px -80px;"></div></li>   
+                        </ul>
+                    </div>
+                    <div class="paperdim">
+                    <a href="javascript:;"><div class="dimok"></div></a>
+                    <a href="javascript:;"><div class="dimdown" time="1"></div></a>
+                    <a href="javascript:;"><div class="dimup" time="1"></div></a>
+                    </div>
+                    <div class="divalert"><!--错误提示位置--></div>
+                </div>
+            </div>
+            <div class="feng">
+                <div class="feng1"></div>
+                <div class="feng2">
+                    <div class="feng_tit">发布买时间</div>
+                    <div id="datepicker" style="z-index:5;left:420px;top:-240px;">
+                        <div id="datepic_btn">
+                            <a href="javascript:void(0);"><div class="leftpic_btn"></div></a>
+                            <a href="javascript:void(0);"><div class="rightpic_btn"></div></a>
+
+                        </div>
+                        <div id="datepic_month"></div>
+                        <table id="datepic_tab" border="0" cellspacing="1" >
+                            <tr style="height:18px;">
+                                <th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
+                            </tr>
+                        </table>
+                        <div class="date_time">
+                            <div class="date_time_left"></div>
+                            <div class="date_time_cont">
+                                <p>开始于<input type="text" id="ipt_date_hr"/>时，持续<input type="text" id="ipt_date_time" value="0.5">小时</p>
+                            </div>
+                            <div class="date_time_right"></div>
+                        </div>
+                        <div class="date_control">
+                            <div class="control_left"></div>
+                            <div class="control_cont">
+                                <a href="javascript:;"><div class="ctl_cont_left"></div></a>
+                                <div class="ctl_cont_cont"></div>
+                                <a href="javascript:;"><div class="ctl_cont_right"></div></a>   
+                            </div>
+                            <div class="control_right"></div>
+                        </div>
+                        <div id="sel_time">
+                            <a href="javascript:;"><div class="sel_time_tt">1</div></a>
+                            <a href="javascript:;"><div class="sel_time_dd">1.5</div></a>
+                            <a href="javascript:;"><div class="sel_time_tt">2</div></a>
+                            <a href="javascript:;"><div class="sel_time_dd">大于2</div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+        </div>
+<div id="flog"></div>
+
+<script type="text/javascript" src="__JS__/pagejs/sell.js"></script>
+<script type="text/javascript" src="__JS__/pagejs/head.js"></script>
+    <script type="text/javascript">
+    datepicker.init('meettime');
+    </script>
+
+</body>
+
+    </html>

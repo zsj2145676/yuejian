@@ -1,0 +1,61 @@
+<div id="registerdiv" class="modal hide fade yjlog_rest_div" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!--	<div class="lgtit">注册约见</div>-->
+        <div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><div class="yjclose2"></div></button>
+<h3>注册约见</h3>
+</div>
+    <div class="quicklogin quickregister">
+    	<span>使用合作账号登陆</span>
+        <ul>
+        	<li><a href="javascript:void(0)"><div class="weibo"></div></a><p>微博</p></li>
+                <li><a href="javascript:void(0)"><div class="renren"></div></a><p>人人</p></li>
+            <li><a href="javascript:void(0)"><div class="tencent"></div></a><p>QQ</p></li>
+        </ul>
+    </div>
+    <div id="register" class="log_res_right">
+    	<ul style="margin-top:42px;">
+            <li>用户名</li>
+            <li><input id="reg_username" placeholder="邮箱或手机号" type="text" /></li>
+        </ul><br />
+        <ul>
+            <li>密&nbsp;&nbsp;&nbsp;&nbsp;码</li>
+            <li><input id="reg_password" type="password" /></li>
+        </ul><br />
+        <ul>
+            <li>确认密码</li>
+            <li><input id="reg_sepassword" type="password" /></li>
+        </ul><br />
+        <ul>
+            <li>兴&nbsp;&nbsp;&nbsp;&nbsp;趣</li>
+            <li  style="margin-left:0px;">
+                <div class="registertype">
+                    <ul>
+                        <li style="background:#3385FF" name="3385FF"><a href="javascript:void(0)">科技</a></li>
+                        <li style="background:#00B3FF" name="00B3FF"><a href="javascript:void(0)">金融</a></li>
+                        <li style="background:#A2E024" name="A2E024"><a href="javascript:void(0)">教育</a></li>
+                        <li style="background:#B6C70A" name="B6C70A"><a href="javascript:void(0)">传媒</a></li>
+                        <li style="background:#FF8E24" name="FF8E24"><a href="javascript:void(0)">娱乐</a></li>
+                        <li style="background:#A736FF" name="A736FF"><a href="javascript:void(0)">体育</a></li>
+                        <li style="background:#E3007F" name="E3007F"><a href="javascript:void(0)">艺术</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul><br />
+        <div class="agreeto">
+            <a class="agree_btn" href="javascript:void(0)"><div></div></a>
+            <div><span style="line-height: 26px;">我已同意约见的</span><a href="javascript:void(0)">用户注册声明</a>
+            </div>
+        </div>
+        <a href="javascript:void(0)"><div class="sbmtrigster" onclick="yj_register.registerNew();"></div></a>
+        <p class="log_reg_alert" style="margin-top:-5px;margin-left:5px;"></p>  
+    </div>
+<!--    <div class="close"><a href="javascript:void(0)"><div id="closeregister"></div></a></div>-->
+</div>
+<script>
+$('#reg_username,#reg_password,#reg_sepassword').focus(function(){
+    $('.log_reg_alert').hide();
+});
+$('#reg_username').blur(function(){
+    yj_register.queryName();
+});
+</script>

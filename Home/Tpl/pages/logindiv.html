@@ -1,0 +1,40 @@
+<div id="logindiv" class="modal hide fade yjlog_rest_div" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<!--<div class="lgtit">登陆约见</div>-->
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><div class="yjclose2"></div></button>
+<h3>登陆约见</h3>
+</div>
+    <div class="quicklogin">
+    	<span>使用合作账号登陆</span>
+        <ul>
+            <li><a href="javascript:void(0)"><div class="weibo"></div></a><p>微博</p></li>
+            <li><a href="javascript:void(0)"><div class="renren"></div></a><p>人人</p></li>
+            <li><a href="javascript:void(0)"><div class="tencent"></div></a><p>QQ</p></li>
+        </ul>
+    </div>
+    <div id="login" class="log_res_right">
+    	<ul style="margin-top:42px;">
+            <li>用户名</li>
+            <li><div class="login_ipt"><input id="username" type="text" /></div></li>
+        </ul>
+        <br />
+		<ul id="log_password">
+            <li>密&nbsp;&nbsp;&nbsp;&nbsp;码</li>
+            <li><div class="login_ipt"><input id="password" type="password" /></div></li>
+        </ul>
+        <br />
+        <div class="forgetpass"><a href="javascript:void(0)"/>忘记密码？</a></div>
+        <br />
+        <a href="javascript:;"><div class="sbmtlogin"></div></a>
+        <p class="log_reg_alert" style="margin-left:50px;margin-top:-21px;">用户名或密码输入有误</p>  
+    </div>
+<!--    <div class="close"><a href="javascript:void(0)"><div id="closelogin"></div></a></div>-->
+</div>
+<script>
+$('#username,#password').focus(function(){
+    $('.log_reg_alert').hide();
+});
+$('.forgetpass').click(function(){
+    $('.log_reg_alert').hide();
+});
+</script>

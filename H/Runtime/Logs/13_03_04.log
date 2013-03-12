@@ -1,0 +1,30 @@
+[ 2013-03-04T14:47:29+08:00 ] 127.0.0.1 /yuejian/h.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+
+[ 2013-03-04T14:48:08+08:00 ] 127.0.0.1 /yuejian/h.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003422s ]
+
+[ 2013-03-04T14:48:42+08:00 ] 127.0.0.1 /yuejian/h.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+
+[ 2013-03-04T15:01:28+08:00 ] ERR: (ThinkException) 参数错误或者未定义:target
+[ 2013-03-04T15:01:45+08:00 ] ERR: (ThinkException) 参数错误或者未定义:target
+[ 2013-03-04T15:01:47+08:00 ] ERR: (ThinkException) 参数错误或者未定义:target
+[ 2013-03-04T15:03:05+08:00 ] 127.0.0.1 /yuejian/h.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+
+[ 2013-03-04T15:07:12+08:00 ] ERR: (ThinkException) 参数错误或者未定义:target
+[ 2013-03-04T15:07:15+08:00 ] ERR: (ThinkException) 参数错误或者未定义:target
+[ 2013-03-04T15:07:38+08:00 ] ERR: (ThinkException) 参数错误或者未定义:target
+[ 2013-03-04T15:07:44+08:00 ] ERR: (ThinkException) 参数错误或者未定义:target
+[ 2013-03-04T15:12:21+08:00 ] ERR: (ThinkException) 非法操作:logout
+[ 2013-03-04T15:13:09+08:00 ] ERR: (ThinkException) 非法操作:logout
+[ 2013-03-04T15:13:37+08:00 ] ERR: (ThinkException) 非法操作:logout

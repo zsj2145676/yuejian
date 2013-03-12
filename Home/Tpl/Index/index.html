@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>在这里，约见你</title>
+    	<link rel="stylesheet" type="text/css" href="__CSS__/base.css" media="screen"/>
+        <link href="__BS__/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="__BS__/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+        <link rel="icon" href="__IMG__/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="__IMG__/favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="__JS__/lib/jquery-1.9.1.min.js"></script>
+        <script src="__JS__/lib/modernizr-transitions.js"></script>
+        <script src="__JS__/lib/jquery.masonry.min.js"></script>
+        <script src="__JS__/function/base.js" type="text/javascript"></script>
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements --><!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+      <!--[if lte IE 6]>
+      <!-- bsie css 补丁文件 -->
+      <link rel="stylesheet" type="text/css" href="__BS__/iehack/bootstrap-ie6.min.css">
+
+      <!-- bsie 额外的 css 补丁文件 -->
+      <link rel="stylesheet" type="text/css" href="__BS__/iehack/ie.css">
+      <![endif]-->
+    </head>
+	<body>
+        <div class="bardiv hide" id="point"><a href="javascript:void(0);" title="回到顶部"></a></div>
+        <div id="include" style="top:276px;">
+        <div id="numbersel">
+        	<div class="numberseltit">约见:</div>
+        </div>
+        <div class="mainline"></div>
+        <div id="main">  
+           <div id="container" class="transitions-enabled centered clearfix" style="">
+           </div>
+       	</div>
+       	</div>
+    <div id="footer">
+        <a href="/yuejian/index.php?m=Index&a=sell" target="_blank"><div></div></a>
+    </div>
+    <!--<div id="flog" class="log"></div>-->
+    <div id="bflog" class="log"></div>
+    <include file="./Home/Tpl/pages/headlogo.html,./Home/Tpl/pages/logindiv.html,./Home/Tpl/pages/registerdiv.html,./Home/Tpl/pages/leaddiv.html,./Home/Tpl/pages/baptrade.html" />
+    
+    
+    <script type="text/javascript" src="__JS__/function/bidding.js"></script>
+    <script type="text/javascript" src="__JS__/pagejs/index.js"></script>
+    <script type="text/javascript" src="__JS__/pagejs/head.js"></script>
+    <script type="text/javascript" src="__JS__/pagejs/log_reg.js"></script>
+    <script type="text/javascript" src="__JS__/function/sidebar.js"></script>
+    <script type="text/javascript" src="__JS__/function/searchTrade.js" ></script>
+    <script type="text/javascript" src="__JS__/function/bapTrade.js"></script>
+    <script src="__BS__/js/bootstrap.min.js"></script>
+    <!--[if lte IE 6]>
+    <!-- bsie js 补丁只在IE6中才执行 -->
+    <script type="text/javascript" src="__BS__/iehack/bootstrap-ie.js"></script>
+    <![endif]-->
+    <script>
+        yj_search.init();
+    </script>
+
+</body>
+
+</html>

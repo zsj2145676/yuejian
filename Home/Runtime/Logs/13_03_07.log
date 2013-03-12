@@ -1,0 +1,2174 @@
+[ 2013-03-07T13:26:46+08:00 ] 127.0.0.1 /yuejian/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001520s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020074s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001475s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000914s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000872s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2013-03-07T13:27:30+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002296s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002462s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027581s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001191s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000874s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000744s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003984s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001952s ]
+
+[ 2013-03-07T13:27:39+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001647s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021396s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001178s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000774s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000571s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003548s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2013-03-07T13:31:29+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001359s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019635s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001141s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001428s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000766s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004763s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2013-03-07T13:41:25+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001371s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020669s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001189s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000943s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000788s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004165s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2013-03-07T13:41:29+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000790s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000881s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001003s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000763s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004294s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2013-03-07T13:41:32+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001517s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039149s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001940s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001244s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000981s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005904s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002522s ]
+
+[ 2013-03-07T13:41:56+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001372s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030323s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001586s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001181s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000924s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005345s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2013-03-07T13:41:59+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=ba67d460-53e9-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000876s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023084s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001441s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000795s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000481s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003695s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002531s ]
+
+[ 2013-03-07T13:42:48+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000685s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017740s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000986s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000682s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000532s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2013-03-07T13:42:59+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=e829ac12-53c0-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000680s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021148s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001111s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000744s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000527s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003381s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2013-03-07T13:43:25+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000661s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017703s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000924s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000632s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000466s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002953s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2013-03-07T13:43:38+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001951s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029315s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001061s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000786s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000637s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003558s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2013-03-07T13:43:43+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=sell
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001184s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001321s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\b0ef81307b9ae219595a6826f3392b87.php 第 18 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\b0ef81307b9ae219595a6826f3392b87.php 第 18 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022502s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001335s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000910s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2013-03-07T13:44:20+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=sell
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000886s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\b0ef81307b9ae219595a6826f3392b87.php 第 18 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\b0ef81307b9ae219595a6826f3392b87.php 第 18 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016686s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000884s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000654s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000469s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002925s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001547s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2013-03-07T13:45:08+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001750s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020869s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001255s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001042s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000660s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004077s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2013-03-07T13:45:20+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001247s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001377s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022059s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001095s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000695s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000511s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2013-03-07T13:45:24+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001438s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033395s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001341s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000850s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000613s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003954s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2013-03-07T13:45:30+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001129s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001249s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022084s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001171s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000673s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000490s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003431s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2013-03-07T13:45:47+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001245s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029285s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001291s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000842s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000636s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003871s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2013-03-07T13:45:59+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000966s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001311s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000705s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000547s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003905s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2013-03-07T13:46:01+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001221s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001376s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031978s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001156s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000937s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000749s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004310s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2013-03-07T13:46:03+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000959s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018426s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001205s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000966s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2013-03-07T13:46:13+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000639s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017425s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000889s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000616s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000495s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2013-03-07T13:46:26+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001262s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022838s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001267s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000819s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000659s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003837s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001818s ]
+
+[ 2013-03-07T13:54:16+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001418s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001527s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027070s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001249s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000878s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003934s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001228s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2013-03-07T13:54:24+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001808s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023410s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001260s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000853s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000796s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004059s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002013s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2013-03-07T13:55:27+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001253s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022132s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001257s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000820s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000630s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003799s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002257s ]
+
+[ 2013-03-07T14:02:36+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001663s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001775s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025177s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001526s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000964s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000638s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004229s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2013-03-07T14:02:55+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001010s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001107s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014936s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000782s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000603s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002745s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2013-03-07T14:03:00+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000871s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017453s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000887s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000622s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000459s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002884s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2013-03-07T14:06:15+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001706s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024715s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001160s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000876s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004074s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2013-03-07T14:06:40+08:00 ] 127.0.0.1 /yuejian/index.php?name=%E7%82%B9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001719s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020197s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001468s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000917s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004531s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.011184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011284s ]
+
+[ 2013-03-07T14:06:54+08:00 ] 127.0.0.1 /yuejian/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000660s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018749s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000948s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000691s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000472s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2013-03-07T14:07:26+08:00 ] 127.0.0.1 /yuejian/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001604s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019490s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001077s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000813s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000668s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003767s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2013-03-07T14:07:35+08:00 ] 127.0.0.1 /yuejian/index.php?name=点
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001629s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022891s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001124s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000862s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003899s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2013-03-07T14:07:39+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001154s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001259s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027544s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001339s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000813s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000581s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003872s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2013-03-07T14:08:39+08:00 ] 127.0.0.1 /yuejian/index.php?name=a
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000724s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018227s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000989s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000726s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000479s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003609s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001204s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2013-03-07T14:08:45+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001208s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001314s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025254s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001213s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000775s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000557s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003516s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001350s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2013-03-07T14:08:46+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000912s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020438s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001031s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000791s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000598s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2013-03-07T14:08:52+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001658s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001782s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028994s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001375s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000866s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000646s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004260s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001802s ]
+
+[ 2013-03-07T14:08:52+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.028191s ]
+INFO: [ view_template ] --END-- [ RunTime:0.028329s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026953s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001110s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000915s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004200s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002204s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002376s ]
+
+[ 2013-03-07T14:09:37+08:00 ] 127.0.0.1 /yuejian/index.php?name=点点
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001343s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020885s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001084s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000835s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000690s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003773s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2013-03-07T14:09:52+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001019s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001126s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019788s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002055s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000687s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000518s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004319s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2013-03-07T14:10:16+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001251s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015463s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000956s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000814s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003912s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2013-03-07T14:13:50+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017065s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001097s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000702s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003657s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2013-03-07T14:13:59+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000881s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024188s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001290s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000699s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000634s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2013-03-07T14:14:05+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000649s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014307s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000795s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000614s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000465s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002774s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2013-03-07T14:14:16+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000636s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014374s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000846s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000758s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000468s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003209s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2013-03-07T14:14:17+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000799s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017650s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001250s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000884s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000492s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2013-03-07T14:14:23+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000643s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017704s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000886s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000620s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000481s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002883s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2013-03-07T14:18:31+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001296s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001394s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027443s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001396s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001432s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000957s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005282s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2013-03-07T14:20:49+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002109s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002273s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001304s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001302s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001101s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004926s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2013-03-07T19:11:21+08:00 ] 127.0.0.1 /yuejian/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003130s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028386s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001682s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001180s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005942s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2013-03-07T19:14:03+08:00 ] 127.0.0.1 /yuejian/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001798s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001925s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023889s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001405s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001305s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001344s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2013-03-07T19:14:09+08:00 ] 127.0.0.1 /yuejian/index.php?name=%E7%82%B9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001573s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021642s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001332s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001103s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005426s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2013-03-07T19:14:37+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001376s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001477s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022628s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001336s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001091s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002907s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006662s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001899s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2013-03-07T19:14:39+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001020s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025127s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001214s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001403s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000809s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2013-03-07T19:15:34+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001244s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027063s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001332s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000747s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005631s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2013-03-07T19:27:17+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001349s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020382s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001243s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001318s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000830s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004683s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001888s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001987s ]
+
+[ 2013-03-07T19:27:32+08:00 ] 127.0.0.1 /yuejian/index.php?name=%E7%82%B9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020731s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001176s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000956s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000796s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004312s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002804s ]
+
+[ 2013-03-07T19:32:38+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001367s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020215s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001154s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000893s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000962s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2013-03-07T19:32:44+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000984s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015711s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000911s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000879s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000818s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2013-03-07T19:32:53+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026148s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001402s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000954s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000771s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004425s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2013-03-07T19:33:11+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016099s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000904s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000735s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000574s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003214s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2013-03-07T19:35:22+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001372s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016733s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001083s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000934s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005280s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001757s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2013-03-07T19:37:16+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001070s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016311s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000900s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000968s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000896s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004007s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2013-03-07T19:37:24+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001738s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001861s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018055s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000997s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004619s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2013-03-07T19:46:25+08:00 ] 127.0.0.1 /yuejian/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001605s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001722s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020895s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001196s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000956s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004211s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2013-03-07T19:46:45+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001606s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001706s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001471s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001084s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001198s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005787s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2013-03-07T19:46:48+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001145s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016416s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001185s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001130s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004841s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001989s ]
+
+[ 2013-03-07T19:52:51+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=0c210e6a-8670-11e2-a2de-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002570s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002809s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001270s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000912s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004593s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2013-03-07T19:52:53+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001163s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022050s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001404s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001086s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005081s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2013-03-07T19:53:22+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002183s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002291s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022851s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001293s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001071s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001095s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005440s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2013-03-07T19:53:25+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=detail&uid=1fca9b0a-53e3-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001601s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027331s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001523s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004811s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002295s ]
+
+[ 2013-03-07T19:53:29+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002331s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002488s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026025s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002046s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001372s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001064s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006409s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002031s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002374s ]
+
+[ 2013-03-07T19:53:42+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002279s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002385s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023189s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001289s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001058s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001465s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005412s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2013-03-07T20:10:23+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001444s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020087s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001086s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000811s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000654s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003728s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2013-03-07T20:22:47+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001317s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001074s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000871s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001836s ]
+
+[ 2013-03-07T20:29:20+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001375s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028351s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001893s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001102s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000824s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005364s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2013-03-07T20:29:44+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001829s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001964s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028319s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001468s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001643s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001027s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005865s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2013-03-07T20:29:48+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001512s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001670s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021767s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001165s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001021s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001125s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004906s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2013-03-07T20:38:10+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001294s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001397s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039785s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002920s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000998s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006024s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006500s ]
+
+[ 2013-03-07T20:38:22+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024635s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001279s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000763s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000599s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003678s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2013-03-07T20:38:27+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001282s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000906s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000751s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2013-03-07T20:42:10+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003424s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004698s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004846s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038344s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003162s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002408s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002158s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010734s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.018375s ]
+INFO: [ view_end ] --END-- [ RunTime:0.018525s ]
+
+[ 2013-03-07T21:11:38+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001858s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001964s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034074s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001434s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001153s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005276s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002363s ]
+
+[ 2013-03-07T21:11:51+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001963s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002068s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024905s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001460s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001754s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006076s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005049s ]
+
+[ 2013-03-07T21:11:57+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=b7d3e48c-8721-11e2-9ea7-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001898s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018184s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001356s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001349s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005355s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002085s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2013-03-07T21:12:04+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002345s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002454s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023487s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001519s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001324s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001249s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005692s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004515s ]
+
+[ 2013-03-07T21:14:08+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002164s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002263s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030924s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002265s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001491s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001128s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007190s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002089s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002227s ]
+
+[ 2013-03-07T21:17:05+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002007s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028073s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002030s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2013-03-07T21:23:10+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002525s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002663s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029080s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001572s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001189s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006479s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002437s ]
+
+[ 2013-03-07T21:23:14+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001738s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022256s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001809s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001797s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001331s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012139s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003131s ]
+
+[ 2013-03-07T21:24:10+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&reset=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002295s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031596s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002163s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002034s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001289s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007337s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002899s ]
+
+[ 2013-03-07T21:29:49+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002160s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022746s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001528s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001284s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005515s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002472s ]
+
+[ 2013-03-07T21:30:10+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002697s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028677s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002080s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001358s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001055s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005992s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002400s ]
+
+[ 2013-03-07T21:30:10+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001576s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001666s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022400s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001405s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001145s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000986s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005281s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002097s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002203s ]
+
+[ 2013-03-07T21:30:13+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001796s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001898s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027334s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001718s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001332s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001036s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005615s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002314s ]
+
+[ 2013-03-07T21:30:14+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002036s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002159s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021825s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001398s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004985s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002197s ]
+
+[ 2013-03-07T21:31:46+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001598s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001693s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021962s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001406s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001149s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001025s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005035s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2013-03-07T21:33:49+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002196s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002321s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025030s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001630s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001581s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001403s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006324s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2013-03-07T21:33:51+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=b7d3e48c-8721-11e2-9ea7-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001961s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002066s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022300s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001535s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001492s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001229s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005993s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2013-03-07T22:44:38+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=extpage&type=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001346s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001642s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000981s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000760s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004631s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001802s ]
+
+[ 2013-03-07T22:44:41+08:00 ] 127.0.0.1 /yuejian/index.php?m=Index&a=customer&uid=b7d3e48c-8721-11e2-9ea7-00262217b721
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000963s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(../inc/auth.php): failed to open stream: No such file or directory E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+NOTIC: [2] include(): Failed opening '../inc/auth.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\yuejian\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\yuejian\Home\Runtime\Cache\02ddb313ac3794f5277cb88b001a3521.php 第 15 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015872s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000913s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000740s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000587s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003410s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2013-03-07T22:44:45+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000997s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020778s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000878s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000648s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000484s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002934s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2013-03-07T22:54:39+08:00 ] 127.0.0.1 /yuejian/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021478s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001026s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000798s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004013s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001793s ]
+

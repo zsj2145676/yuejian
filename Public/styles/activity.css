@@ -1,0 +1,46 @@
+.activity {width:1224px;height:1655px;background:url(../images/activity/background.jpg) no-repeat;background-color: #000;margin: 0 auto;}
+.activity .cut_line {height:43px;}
+.activity .title {width:305px;height:131px;background:url(../images/activity/ac_title.png) no-repeat;margin: 0 auto 0;}
+.activity .sub_title {width:970px;height:300px;margin: 0 auto;}
+.activity .sub_title .activity_slider {float:left;width:695px;height:300px;}
+.activity .sub_title .program_detail {float:right;width:266px;height:299px;background:url(../images/activity/back_01.png) repeat;border-top:1px solid #3f5fb2;}
+.activity .sub_title .program_detail .program_title p {margin:17px 0 15px 14px;color:#59CDFF;font-size:16px;}
+.activity .sub_title .program_detail .program_ct_line {width:244px;height:1px;background-color: #212E52;margin:0 auto;}
+.activity .sub_title .program_detail .program_suggest {color:#5990FF;font-size:12px;margin: 10px 0 0 13px;line-height: 21px;}
+.activity .stars {width:970px;height:470px;border-top:2px solid #30397a;margin: 0 auto;margin-top:21px;}
+.activity .stars .stars_title {font-size:16px;color:#59CDFF;margin-left:8px;margin-top:20px;position: absolute;}
+.activity .stars .stars_teachers {height:268px;border-bottom:2px solid #111629;background:url(../images/activity/back_02.png) repeat;}
+.activity .stars .stars_teachers .teacher_bar {margin-left: 87px;padding-top: 21px;width: 880px;}
+.activity .stars .stars_teachers div {height:264px;width:174px;float:left;}
+.activity .stars .stars_teachers .teach_01:hover img,.activity .stars .stars_teachers .teach_02:hover img,.activity .stars .stars_teachers .teach_03:hover img,.activity .stars .stars_teachers .teach_04:hover img {filter:alpha(opacity=100); -moz-opacity:1; opacity:1;}
+.activity .stars .stars_teachers div img {height:84%;filter:alpha(opacity=60); -moz-opacity:0.6; opacity:0.6;}
+.activity .stars .stars_teachers div span {padding-left: 62px;font-size: 16px;color: #70838A;position: relative;}
+.activity .stars .yue_t_bar {height:202px;background:url(../images/activity/back_03.png) repeat;}
+.activity .stars .yue_teacher {width: 900px;height: 166px;margin: 0 auto;}
+.activity .stars .yue_teacher .yue_detail {display:none;}
+.activity .stars .yue_teacher .yue_detail.s {display:block;}
+.activity .stars .yue_teacher .yue_detail .yue_teacher_detail {width: 662px;float: right;height: 166px;}
+.activity .stars .yue_teacher .yue_detail .yue_teacher_detail .t_name {font-size:14px;color:#59CDFF;margin-top: 23px;}
+.activity .stars .yue_teacher .yue_detail .yue_teacher_detail p {font-size: 14px;color: #5990FF;line-height: 16px;}
+.activity .stars .yue_teacher .yue_detail .yue_button {height: 166px;width: 225px;float: left;border-right: 2px solid #3F60B5;}
+.activity .stars .yue_teacher .yue_detail .yue_button a {width:128px;height:41px;background:url(../images/activity/yueta.png) no-repeat;margin-top: 58px;float: left;margin-left: 33px;filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8;}
+.activity .stars .yue_teacher .yue_detail .yue_button a:hover {filter:alpha(opacity=100); -moz-opacity:1; opacity:1;}
+
+.activity .hudong {width:970px;height:506px;margin: 0 auto;margin-top: 10px;}
+.activity .hudong .taolunqu {width:680px;height:506px;float:left;}
+.activity .hudong .tl_title {float:left;font-size:16px;color:#59CDFF;margin: 8px 0 16px 12px;}
+.activity .hudong .ct_line {width:680px;height:1px;background-color:#3F60B5;float:left;}
+.activity .hudong .weibo_tl {}
+.activity .hudong .sign_up {width: 253px;height: 506px;float: right;margin-right: 16px;}
+.activity .hudong .sign_up .sign_title {font-size:16px;color:#59CDFF;margin: 8px 0 16px 12px;}
+.activity .hudong .sign_up .su_ct_line {width:247px;height:1px;background-color:#3F60B5;}
+.activity .hudong .sign_up .sign_info {font-size: 14px;color: #5990FF;line-height: 16px;margin: 15px 0 11px 8px;}
+.activity .hudong .sign_up .sign_info p {font-size: 14px;color: #5990FF;}
+.activity .hudong .sign_up .sign_info .w {font-size:12px;color:#fff;}
+.activity .hudong .sign_up .sign_info .barcode {}
+.activity .hudong .sign_up .sign_info .barcode img {width:210px;height:210px;}
+#gz_apchy {margin-top: 8px;margin-left: 2px;}
+
+.activity_foot {width:1224px;height:100px;background-color: #fff;margin: 0 auto;}
+.activity_foot .logo {text-align: center;padding-top: 20px;}
+.activity_foot .copyright {text-align: center;padding-top: 23px;font-size:12px;color:#999;} 

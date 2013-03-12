@@ -1,0 +1,11 @@
+[ 2013-03-03T23:05:30+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.016183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016306s ]
+
+[ 2013-03-03T23:15:12+08:00 ] ERR: (ThinkException) 无法加载模块:Search
+[ 2013-03-03T23:28:51+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+
