@@ -1,0 +1,8 @@
+[ 2013-03-12T20:48:34+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2013-03-12T23:59:34+08:00 ] 60.247.46.27 /a.php?m=Seller&a=status&uid=ba67d460-53e9-11e2-b0bb-047d7b30caca
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `yue_status` [ RunTime:0.000488s ]
+SQL: SELECT `html` FROM `yue_status` WHERE ( `uid` = 'ba67d460-53e9-11e2-b0bb-047d7b30caca' ) LIMIT 1   [ RunTime:0.000298s ]
+

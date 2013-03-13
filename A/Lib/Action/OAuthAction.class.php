@@ -3,18 +3,17 @@ class OAuthAction extends Action {
 	
 	/*! 第三方登录结果检测
 	*/
-	public function oauth()
-	{
+	public function oAuth() {
 		import('@.Action.Account');
 		$succeed = False;
-		if(session('?oauth')){
+		if(session('oauth')){
 			$oauth = session('oauth');
 			$server = $oauth['server'];
 			$oauthid = $oauth['oauthid'];
-			$OAuth = M('oauth');
-			$condition['server'] = $server;
-			$condition['oauthid'] = $oauthid;
-			$data = $OAuth->where($condition)->find();
+			$oAuth = M('Oauth');
+			$condition['oauth_type'] = $server;
+			$condition['oauth_id'] = $oauthid;
+			$data = $oAuth->where($condition)->find();
 			if($data==null){// 首次第三方登录
 				$now = time();
 				$rand = rand();
@@ -22,7 +21,7 @@ class OAuthAction extends Action {
 				$username = "$name$now$rand";
 				$password = "$now_$rand";
 				$cat = '';
-				$account = new $AccountAction();
+				$account = new AccountAction();
 				$uid = $account->signup($username,$password,$cat,false);
 				$condition['uid'] = $uid;
 				$OAuth->add($condition);
@@ -36,7 +35,7 @@ class OAuthAction extends Action {
 			$data = $Login->where($lc)->field('group,lastlogin')->find();
 			if($data){
 				$id = $data['id'];
-				$group = intval($data['group'])
+				$group = intval($data['group']);
 				$now=time();
 				$firsttime = null==$data['lastlogin'];
 				$data['lastlogin'] = $now;
@@ -62,8 +61,7 @@ class OAuthAction extends Action {
 		include_once ('saetv2.ex.class.php');
 		$o = new SaeTOAuthV2(WB_AKEY, WB_SKEY);
 
-		if (isset($_REQUEST['code']))
-		{
+		if (isset($_REQUEST['code'])) {
 			$keys = array();
 			$keys['code'] = $_REQUEST['code'];
 			$keys['redirect_uri'] = WB_CALLBACK_URL;
@@ -83,24 +81,25 @@ class OAuthAction extends Action {
 			$uid = $uid_get['uid'];
 			$user_message = $c->show_user_by_id( $uid);
 			$_SESSION['oauth']['name'] = $user_message['name'];
-			$_SESSION['oauth']['oauthid'] = $uid
-			$_SESSION['oauth']['server'] = 'weibo'
+			$_SESSION['oauth']['oauthid'] = $uid;
+			$_SESSION['oauth']['server'] = 'weibo';
 		}
 	}
+
+        
 	
-	public function sina()
-	{
-		
+	public function buildWeiboConnectUrl() {
+            include_once( $_SERVER['DOCUMENT_ROOT'].'/Third/OAuth/weibo/config.php' );
+            include_once( $_SERVER['DOCUMENT_ROOT'].'/Third/OAuth/weibo/saetv2.ex.class.php' );
+            $o = new SaeTOAuthV2( WB_AKEY , WB_SKEY );
+            $code_url = $o->getAuthorizeURL( WB_CALLBACK_URL );
+            return $code_url;
 	}
 	
 	public function renren()
 	{
 	}
 	
-	public function douban()
-	{
-	
-	}
 	
 	public function qq()
 	{

@@ -2,7 +2,7 @@ var req_log_reg={
 	ajaxQueryUser:function(username, password, success, error){
         $.ajax({
             type    : "POST",
-            url     : "/yuejian/a.php?m=Account&a=login",
+            url     : "/a.php?m=Account&a=login",
             async : false,
             data : {username:username, password:password},
             success : function(data) {
@@ -16,7 +16,7 @@ var req_log_reg={
     ajaxFindPasswd:function(username,type,success,error){
     	$.ajax({
             type    : "POST",
-            url     : "/yuejian/a.php?m=Account&a=findpwd",
+            url     : "/a.php?m=Account&a=findpwd",
             async : false,
             data : {username:username, type:type},
             success : function(data) {
@@ -30,7 +30,7 @@ var req_log_reg={
     ajaxQueryName:function(username,success,error){
     	$.ajax({
             type    : "POST",
-            url     : "/yuejian/a.php?m=Account&a=exist",
+            url     : "/a.php?m=Account&a=exist",
             async : false,
             data : {username:username},
             success : function(data) {
@@ -44,7 +44,7 @@ var req_log_reg={
     ajaxRegister:function(username,password,cat,success,error){
         $.ajax({
             type    : "POST",
-            url     : "/yuejian/a.php?m=Account&a=signup",
+            url     : "/a.php?m=Account&a=signup",
             async : false,
             data : {username:username, password:password,cat:cat},
             success : function(data) {

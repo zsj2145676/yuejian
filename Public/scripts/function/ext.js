@@ -309,7 +309,7 @@ var yj_ext = {
         var oThis = this;
         $("#loading").show();
         $.ajaxFileUpload({
-            url:'/yuejian/h.php?m=Upload&a=avatar',
+            url:'/h.php?m=Upload&a=avatar',
             secureuri:false,
             fileElementId:'fileToUpload',
             dataType: 'json',

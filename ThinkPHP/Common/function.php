@@ -9,13 +9,13 @@ function avatar_url($name,$type='large')
 	}
     else{
 		if($type=='large'){
-			$ret = '/yuejian/Public/images/head.png';
+			$ret = '/Public/images/head.png';
 		}
 		else if($type=='normal'){
-			$ret = '/yuejian/Public/images/yuenormal.png';
+			$ret = '/Public/images/yuenormal.png';
 		}
 		else{
-			$ret = '/yuejian/Public/images/yuesmall.png';
+			$ret = '/Public/images/yuesmall.png';
 		}
 	}
 	return $ret;

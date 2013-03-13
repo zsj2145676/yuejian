@@ -1,15 +1,10 @@
-[ 2013-03-11T22:16:18+08:00 ] 127.0.0.1 /yuejian/h.php
+[ 2013-03-11T21:35:10+08:00 ] 127.0.0.1 /yuejian/h.php
 INFO: [ app_begin ] --START--
-INFO: Run ReadHtmlCache Behavior [ RunTime:0.000329s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
 
-[ 2013-03-11T22:16:22+08:00 ] 127.0.0.1 /yuejian/h.php
+[ 2013-03-11T21:35:16+08:00 ] 127.0.0.1 /yuejian/h.php
 INFO: [ app_begin ] --START--
-INFO: Run ReadHtmlCache Behavior [ RunTime:0.000471s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
-
-[ 2013-03-11T22:19:15+08:00 ] 127.0.0.1 /yuejian/h.php
-INFO: [ app_begin ] --START--
-INFO: Run ReadHtmlCache Behavior [ RunTime:0.000323s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
 

@@ -207,7 +207,7 @@ class AccountAction extends Action {
 			$data['pwd'] = 1;
 			$uid = $data['uid'];
 			if($Email->save($data)){
-				$link = "http://localhost/yuejian/a.php?m=Account&a=pwdback&code=$code&uid=$uid";
+				$link = "http://localhost/a.php?m=Account&a=pwdback&code=$code&uid=$uid";
 				$subject = '取回登录密码【yuejian网安全中心 】';
 				$body="尊敬的yuejian帐号网用户$name：<br>
 				<br>您好！<br>
@@ -262,7 +262,7 @@ class AccountAction extends Action {
 			}
 		}
 		// dump($ret);
-		header('location:/yuejian/index.php?m=Index&a=extpage&reset=1');
+		header('location://index.php?m=Index&a=extpage&reset=1');
 		$this->ajaxReturn($ret);
 	}
 	

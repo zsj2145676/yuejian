@@ -18,10 +18,10 @@ var indexjs = {
 		var oThis = this;
 	    $('.box').each(function(){
 			$(this).mouseover(function(){
-				$(this).find('.yjbtn').removeClass('hide');	
+				$(this).find('.btn').removeClass('hide');	
 			});	
 			$(this).mouseout(function(){
-				$(this).find('.yjbtn').addClass('hide');
+				$(this).find('.btn').addClass('hide');
 			});
 		});
 		$('.GridComment').focus(function(){
@@ -32,7 +32,7 @@ var indexjs = {
 			$(this).removeClass('comment-with-avatar');
 			$(this).closest('.write').find('.img').removeClass('comment-avatar-show');
 		});
-		$('.yjbtn').click(function(){
+		$('.btn').click(function(){
 			$('.write').hide();
 			$(this).parent().find('.write').show();
 			oThis.$container.masonry({
@@ -85,6 +85,36 @@ var indexjs = {
 			// yj_bidding.bid(money,tradeid);
 			yj_baptrade.quickBap(tradeid,money,price);
 		});
+		$('.cat_sex').mouseover(function(){
+			$(".cat_select_bar .sex_select").show();
+		}).mouseout(function(){
+			$(".cat_select_bar .sex_select").hide();
+		});
+		$('.cat_select_bar .sex_select').mouseover(function(){
+			$(".cat_select_bar .sex_select").show();
+		}).mouseout(function(){
+			$(".cat_select_bar .sex_select").hide();
+		});
+		$('.cat_trade').mouseover(function(){
+			$(".cat_select_bar .trade_select").show();
+		}).mouseout(function(){
+			$(".cat_select_bar .trade_select").hide();
+		});
+		$('.cat_select_bar .trade_select').mouseover(function(){
+			$(".cat_select_bar .trade_select").show();
+		}).mouseout(function(){
+			$(".cat_select_bar .trade_select").hide();
+		});
+		$('.cat_price').mouseover(function(){
+			$(".cat_select_bar .price_select").show();
+		}).mouseout(function(){
+			$(".cat_select_bar .price_select").hide();
+		});
+		$('.cat_select_bar .price_select').mouseover(function(){
+			$(".cat_select_bar .price_select").show();
+		}).mouseout(function(){
+			$(".cat_select_bar .price_select").hide();
+		});
 	    //pagedom end
 	},
 	cmmitPerson:function(str){
@@ -119,7 +149,7 @@ var indexjs = {
 	ajaxCmmit:function(charter,uid,success){
 		$.ajax({
 			type    : "POST",
-            url     : "/yuejian/h.php?m=Relation&a=approve",
+            url     : "/h.php?m=Relation&a=approve",
             async : false,
             data : {type:charter,target:uid},
             success : function(data) {
@@ -145,7 +175,7 @@ var indexjs = {
 	ajaxGuide:function(success,error){
 	$.ajax({
 			type    : "POST",
-            url     : "/yuejian/a.php?m=Account&a=firstLogin",
+            url     : "/a.php?m=Account&a=firstLogin",
             async : false,
             data : {},
             success : function(data) {

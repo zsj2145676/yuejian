@@ -2,6 +2,7 @@
 <html>
     <head>
     	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta property="wb:webmaster" content="9ac288c8a04f9115" />
         <title>在这里，约见你</title>
     	<link rel="stylesheet" type="text/css" href="__CSS__/base.css" media="screen"/>
         <link href="__BS__/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -34,7 +35,7 @@
        	</div>
        	</div>
     <div id="footer">
-        <a href="/yuejian/index.php?m=Index&a=sell" target="_blank"><div></div></a>
+        <a href="/index.php?m=Index&a=sell" target="_blank"><div></div></a>
     </div>
     <!--<div id="flog" class="log"></div>-->
     <div id="bflog" class="log"></div>
@@ -199,7 +200,7 @@ $('.forgetpass').click(function(){
     <div class="quicklogin quickregister">
     	<span>使用合作账号登陆</span>
         <ul>
-        	<li><a href="javascript:void(0)"><div class="weibo"></div></a><p>微博</p></li>
+        	<li><a href="<?php echo ($weiboLoginUrl); ?>"><div class="weibo" ></div></a><p>微博</p></li>
                 <li><a href="javascript:void(0)"><div class="renren"></div></a><p>人人</p></li>
             <li><a href="javascript:void(0)"><div class="tencent"></div></a><p>QQ</p></li>
         </ul>

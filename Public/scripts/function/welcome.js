@@ -69,7 +69,7 @@ var yj_welcome = {
     checkCode:function(code,success,error){
         $.ajax({
             type    : "POST",
-            url     : "/yuejian/a.php?m=Invitation&a=check",
+            url     : "/a.php?m=Invitation&a=check",
             async : false,
             data : {code:code},
             success : function(data) {
@@ -90,7 +90,7 @@ var yj_welcome = {
         }else{
             $.ajax({
                 type    : "POST",
-                url     : "/yuejian/a.php?m=Account&a=exist",
+                url     : "/a.php?m=Account&a=exist",
                 async : false,
                 data : {username:str},
                 success : function(data) {
@@ -130,7 +130,7 @@ var yj_welcome = {
     comtUserInfo:function(username,passwd,code,success,error){
         $.ajax({
             type    : "POST",
-            url     : "/yuejian/a.php?m=Invitation&a=bind",
+            url     : "/a.php?m=Invitation&a=bind",
             async : false,
             data : {username:username,password:passwd,code:code},
             success : function(data) {

@@ -67,7 +67,7 @@ function clkFootBtnOk(){
     //异步提交统计数据
     $.ajax({
         type    : "POST",
-        url     : "/yuejian/l.php?m=Index&a=updateStatisticsForLandingpage",
+        url     : "/l.php?m=Index&a=updateStatisticsForLandingpage",
         data : {parent_name:curTitlShort,statistics:arrCtxtString},
         success : function(data) {
             if(data.status == 1) {

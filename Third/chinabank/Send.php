@@ -27,7 +27,7 @@ $argv = array(
 		 'money'=>$money, 
 		 'description'=>$description,
 		 ); 
-$line = submit_post('localhost','/yuejian/h.php?m=Trade&a=bid',$argv);
+$line = submit_post('localhost','/h.php?m=Trade&a=bid',$argv);
 $bidid = $line;
 if($bidid!=''){
 	echo '<body onLoad="javascript:document.E_FORM.submit();">';

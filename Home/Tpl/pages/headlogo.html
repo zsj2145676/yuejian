@@ -34,56 +34,64 @@
 <script src="__JS__/function/log_reg.js" type="text/javascript"></script>
 <script src="__JS__/function/req_log_reg.js" type="text/javascript"></script>
 <div id="headlogo">
-    <div id="logotop"><div class="logoright"></div></div>
     <div id="loginbar">
 <!--        <div class="searchbar">
             <input type="text" id="searchbar_ipt" value="请输入您感兴趣的关键字"/>
         </div>-->
     
-    <div class="form-search" style="float: left;">
-    <div class="input-append" >
-        <input type="text" id="searchbar_ipt" class="span2 search-query" value="请输入您感兴趣的关键字">
-        <button type="button" class="btn"><i class="icon-search"></i></button>
+      <div class="form-search" style="float: left;margin-top: 8px;">
+        <div class="input-append" >
+          <input type="text" id="searchbar_ipt" class="span2 search-query" value="请输入您感兴趣的关键字">
+          <button type="button" class="btn"><i class="icon-search"></i></button>
+        </div>
+      </div>
+      <a href="index.php">
+        <div class="typebar two goindex in" style="margin-left: 10px;">
+            首页
+        </div>
+      </a>
+      <a href="javascript:void(0);">
+        <div class="typebar fabu four">
+              发布约见
+        </div>
+      </a>
+      <a href="javascript:void(0);">
+        <div class="typebar fir_typ two in">
+              活动
+        </div>
+      </a>
+      <!--div class="typebar sec_typ">
+          <a href="javascript:void(0);">
+              <span></span>扩展
+          </a>
+      </div>
+      
+      <div id="sec_typ_cont">
+          <div class="red leftpane">{
+          </div>
+          <div class="minpane">
+              <ul>
+                  <li><a href="index.php?m=Index&a=extpage&type=1">邮件</a>
+                  </li>
+                  <li><a href="index.php?m=Index&a=extpage&type=2">设置</a>
+                  </li>
+                  <li><a href="index.php?m=Index&a=extpage&type=3">关于约见</a>
+                  </li>
+              </ul>
+          </div>  
+          <div class="red rightpane">
+          }
+          </div>
+      </div-->
     </div>
-    </div>
-        <div class="login_register">
-        	<ul>{$navdiv}</ul>
-        </div>
-        <div class="typebar goindex" style="margin-left: 10px;">
-            <a href="index.php">
-                <span style="background-position: -191px -102px;"></span>
-                首页
-            </a>
-        </div>
-        <div class="typebar fir_typ" style="background:#F5F6F4;">
-    		<a href="javascript:void(0);">
-            	<span style="background-position: -192px -27px;"></span>
-                分类
-            </a>
-    		</div>
-        <div class="typebar sec_typ">
-            <a href="javascript:void(0);">
-                <span></span>扩展
-            </a>
-        </div>
-        
-        <div id="sec_typ_cont">
-            <div class="red leftpane">{
-            </div>
-            <div class="minpane">
-                <ul>
-                    <li><a href="index.php?m=Index&a=extpage&type=1">邮件</a>
-                    </li>
-                    <li><a href="index.php?m=Index&a=extpage&type=2">设置</a>
-                    </li>
-                    <li><a href="index.php?m=Index&a=extpage&type=3">关于约见</a>
-                    </li>
-                </ul>
-            </div>  
-            <div class="red rightpane">
-            }
-            </div>
-        </div>
+    <div class="yue_logo">
+      <div class="login_register">
+        <ul>{$navdiv}</ul>
+      </div>
+      <div class="logoright"></div>
+      <div class="logoright_back">
+        <div class="yue_icon"></div>
+      </div>
     </div>
 </div>
 <div id="navbar">

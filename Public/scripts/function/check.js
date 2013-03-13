@@ -15,7 +15,7 @@ var yj_check = {
 		var oThis = this;
 		$.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Verify&a=smscode",
+            url     : "/h.php?m=Verify&a=smscode",
             async : false,
             data : {phone:phone},
             success : function(data) {
@@ -32,7 +32,7 @@ var yj_check = {
 		var oThis = this;
 		$.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Verify&a=emailcode",
+            url     : "/h.php?m=Verify&a=emailcode",
             async : false,
             data : {phone:phone},
             success : function(data) {

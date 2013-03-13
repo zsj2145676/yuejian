@@ -88,7 +88,7 @@ class VerifyAction extends Action {
 				$data['code'] = $code;
 				$data['time'] = time();
 				if($Email->save($data)){
-					$link = "http://localhost/yuejian/a.php?m=Account&a=verifyemail&uid=$uid&code=$code";
+					$link = "http://localhost/a.php?m=Account&a=verifyemail&uid=$uid&code=$code";
 					$subject = '验证登录邮箱【yuejian网安全中心 】';
 					$body="尊敬的yuejian帐号网用户$name：<br>
 					<br>您好！<br>

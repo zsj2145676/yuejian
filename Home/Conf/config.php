@@ -11,11 +11,11 @@ return array(
     'OUTPUT_ENCODE'=>false,
     'URL_MODEL'=> 0,
     'TMPL_PARSE_STRING'  =>array(
-        '__IMG__' => '/yuejian/Public/images',
-        '__CSS__' => '/yuejian/Public/styles',
-        '__JS__' => '/yuejian/Public/scripts',
-        '__BS__' => '/yuejian/Public/bootstrap',
-        '__UPLOAD__' => '/yuejian/Uploads',
+        '__IMG__' => '/Public/images',
+        '__CSS__' => '/Public/styles',
+        '__JS__' => '/Public/scripts',
+        '__BS__' => '/Public/bootstrap',
+        '__UPLOAD__' => '/Uploads',
     )
 );
 ?>

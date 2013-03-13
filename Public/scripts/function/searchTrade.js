@@ -19,11 +19,11 @@ var yj_search = {
 		var oThis = this;
 		$.ajax({
 			type    : "GET",
-            url     : "/yuejian/a.php?m=Search",
+            url     : "/a.php?m=Search",
             async : false,
             data : {type:oThis.type,key:oThis.name,page:oThis.page},
             success : function(data) {
-            	data = eval('('+data+')');
+            	//data = eval('('+data+')');
             	oThis.total_page = data.total_page;
             	oThis.appendItem(data.result);
             },
@@ -100,7 +100,7 @@ var yj_search = {
                                 +'</a></li>'
                             +'</ul>'
                         +'</div>'
-                        +'<div class="write convo clearfix"><a href=# title="" class="img"><img class="default_cmt_head" src="/yuejian/Public/images/default_buddy_icon.jpg"></a>'
+                        +'<div class="write convo clearfix"><a href=# title="" class="img"><img class="default_cmt_head" src="/Public/images/default_buddy_icon.jpg"></a>'
                             +'<form action="" method="POST">'
                                 +'<textarea placeholder="快速出价" class="GridComment ani-affected " autocomplete="off" ></textarea>'
                             +'<ul class="ac-choices" style="display: none; z-index: 42; opacity: 0; "></ul>'
@@ -149,7 +149,7 @@ var yj_search = {
                                 +'</a></li>'
                             +'</ul>'
                         +'</div>'
-                        +'<div class="write convo clearfix"><a href=# title="" class="img"><img class="default_cmt_head" src="/yuejian/Public/images/default_buddy_icon.jpg"></a>'
+                        +'<div class="write convo clearfix"><a href=# title="" class="img"><img class="default_cmt_head" src="/Public/images/default_buddy_icon.jpg"></a>'
                             +'<form action="" method="POST">'
                                 +'<textarea placeholder="快速出价" class="GridComment ani-affected " autocomplete="off" ></textarea>'
                             +'<ul class="ac-choices" style="display: none; z-index: 42; opacity: 0; "></ul>'

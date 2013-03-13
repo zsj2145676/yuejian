@@ -141,7 +141,7 @@ var yj_baptrade = {
 		var oThis = this;
 		$.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Trade&a=payed",
+            url     : "/h.php?m=Trade&a=payed",
             async : false,
             data : {tradeid:oThis.tradeid},
             success : function(data) {
@@ -175,7 +175,7 @@ var yj_baptrade = {
 		var code = $('#modifycode').val();
 		$.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Verify&a=checksms",
+            url     : "/h.php?m=Verify&a=checksms",
             async : false,
             data : {code:code},
             success : function(data) {
@@ -217,7 +217,7 @@ var yj_baptrade = {
 		var success = false;
 		$.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Verify&a=checkphone",
+            url     : "/h.php?m=Verify&a=checkphone",
             async : false,
             data : {},
             success : function(data) {
@@ -233,7 +233,7 @@ var yj_baptrade = {
 		var datab = 1;
 		$.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Trade&a=checkbid",
+            url     : "/h.php?m=Trade&a=checkbid",
             async : false,
             data : {tradeid:tradeid},
             success : function(data) {
@@ -252,7 +252,7 @@ function queryBapResult(){
 	var success = false;
 	$.ajax({
         type    : "POST",
-        url     : "/yuejian/h.php?m=Trade&a=payed",
+        url     : "/h.php?m=Trade&a=payed",
         async : false,
         data : {tradeid:yj_baptrade.tradeid},
         success : function(data) {

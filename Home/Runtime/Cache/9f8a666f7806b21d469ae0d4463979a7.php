@@ -1,0 +1,100 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>在这里约见你</title>
+<meta name="description" content="在这里，你可以跟名人面对面的交流">
+<meta name="keywords" content="约见">
+<link href="__BS__/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="__BS__/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+<link href="__CSS__/connect_callback.css" rel="stylesheet" >
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<!-- <div class="connect-wrap">	 -->	
+	<div id="userInfo" class="user-info clearfix">
+	<div class="avatar-holder left">
+	<img class="avatar" src="http://tp2.sinaimg.cn/1893056905/180/40004337097/1"  width="48" height="48" />
+	</div>
+	<div class="user-name"><?php echo ($username); ?></div>
+	<div class="user-source">
+	    使用新浪微博账号注册
+	</div>
+	<div id="switch-login" class="switch-able left">
+		<button id="create"class="btn btn-info">创建约见帐号</button>
+	    <button id="nocreate"class="btn btn-info">已有约见帐号</button>
+	</div>
+
+	<br>
+	<br>
+	<center>
+	<div id="form-login1">
+	<form class="form-horizontal">
+	  <div class="control-group">
+	    <label style="float:left;" class="control-label" for="inputEmail">邮箱:</label>
+	    <div class="controls">
+	      <input type="text" id="inputEmail" placeholder="Email">
+	    </div>
+	  </div>
+	  <div class="control-group">
+	    <label tyle="float:left;" class="control-label" for="inputPassword">密码:</label>
+	    <div class="controls">
+	      <input type="password" id="inputPassword" placeholder="Password">
+	    </div>
+	  </div>
+	  <div class="control-group">
+	    <div class="controls">
+	      <button type="submit" class="btn btn-large">创建帐号</button>
+	    </div>
+	  </div>
+	  <label class="checkbox">
+	    <input type="checkbox" checked> <span class="input-span">关注约见官方微博</span>
+	  </label>
+	</form>	
+	</div>
+	</center>
+
+	<center>
+	<div id="form-login2" style="display:none;">
+	<form class="form-horizontal">
+	  <div class="control-group">
+	    <label class="control-label" for="inputEmail">邮箱:</label>
+	    <div class="controls">
+	      <input type="text" id="inputEmail" placeholder="Email">
+	    </div>
+	  </div>
+	  <div class="control-group">
+	    <label class="control-label" for="inputPassword">密码:</label>
+	    <div class="controls">
+	      <input type="password" id="inputPassword" placeholder="Password">
+	    </div>
+	  </div>
+	  <div class="control-group">
+	    <div class="controls">
+	      <button type="submit" class="btn btn-large">立即绑定</button>
+	    </div>
+	  </div>
+	  <label class="checkbox">
+	  	 <input type="checkbox" checked> <span class="input-span">关注约见官方微博</span>
+	  </label>
+	</form>	
+	</div>
+    </center>
+        
+<script>
+    $(document).ready(function() {
+	$("#nocreate").on("click",function(event){
+		$("#form-login1").hide();
+		$("#form-login2").show();
+	});
+	$("#create").on("click",function(event){
+		$("#form-login1").show();
+		$("#form-login2").hide();
+	});
+});
+</script>
+</body>
+
+</html>

@@ -40,7 +40,7 @@ var yj_sell={
         var bool = 0;
         $.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Trade&a=checktime",
+            url     : "/h.php?m=Trade&a=checktime",
             async : false,
             data : {time:time},
             success : function(data) {
@@ -55,7 +55,7 @@ var yj_sell={
     newTrade:function(time,address,description,money,charity,success){
         $.ajax({
             type    : "POST",
-            url     : "/yuejian/h.php?m=Trade&a=create",
+            url     : "/h.php?m=Trade&a=create",
             async : false,
             data : {time:time,address:address,description:description,money:money,charity:charity},
             success : function(data) {
@@ -197,7 +197,7 @@ var selljs = {
         map.centerAndZoom(point,15);                     // 初始化地图,设置中心点坐标和地图级别。
         map.enableScrollWheelZoom();                            //启用滚轮放大缩小  
         map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type:  BMAP_NAVIGATION_CONTROL_ZOOM})); 
-        map.setDefaultCursor("url('./yuejian/Public/images/point.png')");   
+        map.setDefaultCursor("url('./Public/images/point.png')");   
         var gc = new BMap.Geocoder();    
         map.addEventListener("click", function(e){        
             var pt = e.point;

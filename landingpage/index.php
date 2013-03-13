@@ -39,7 +39,7 @@
   
         <div class="slide-item visible">
           <div class="slide-image">
-            <b style="background-image: url(http://localhost/yuejian/Public/images/navbg.jpg); background-size: cover;" class="sl-img current first"></b>
+            <b style="background-image: url(http://localhost/Public/images/navbg.jpg); background-size: cover;" class="sl-img current first"></b>
           </div>
           <div class="slide-info">
             <div class="sl-info">
