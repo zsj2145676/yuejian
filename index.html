@@ -1,66 +1,377 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Yuejian by zsj2145676</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Yuejian</h1>
-        <p>yuejian website</p>
-
-        <p class="view"><a href="https://github.com/zsj2145676/yuejian">View the Project on GitHub <small>zsj2145676/yuejian</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/zsj2145676/yuejian/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/zsj2145676/yuejian/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/zsj2145676/yuejian">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/zsj2145676">zsj2145676</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
     
-  </body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>
+            约见 - 活动
+        </title>
+        <link rel="stylesheet" type="text/css" href="./styles/base.css" media="screen"
+        />
+        <link rel="stylesheet" href="./styles/jquery.fancybox.css" type="text/css"
+        media="screen" />
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./styles/coin-slider-styles.css">
+        <link rel="stylesheet" type="text/css" href="./styles/activity.css" media="screen"
+        />
+        <link rel=stylesheet href="./styles/jquery.fancybox-buttons.css">
+        <script src="./scripts/lib/modernizr-transitions.js">
+                                                                        
+        </script>
+        <script type="text/javascript" src="./scripts/lib/jquery-1.9.1.min.js">
+                                                                        
+        </script>
+        <script src="./scripts/lib/jquery.masonry.min.js">
+                                                                        
+        </script>
+        <script src="./scripts/lib/jquery.mousewheel-3.0.6.pack.js">
+                                                                        
+        </script>
+        <!-- <script src="./scripts/pagejs/jquery.fancybox-buttons.js">
+                                                
+         </script>
+         <script src="./scripts/pagejs/jquery.fancybox-media.js">
+                                                
+         </script>
+         <script src="./scripts/pagejs/jquery.fancybox-thumbs.js"> 
+                                                
+         </script> -->
+        <script src="./scripts/lib/coin-slider.min.js">
+                                                                        
+        </script>
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript"
+        charset="utf-8">
+                                                                        
+        </script>
+        <!--script src="./scripts/function/base.js" type="text/javascript"></script-->
+    </head>
+    <script>
+                                          $(document).ready(function() {
+                                          $('#coin-slider').coinslider({
+                                              width: 695,
+                                              height: 300,
+                                              navigation: true,
+                                              effect: 'random'
+                                          });
+                                      });
+    </script>
+    
+    <body>
+        <div class="bardiv hide" id="point">
+            <a href="javascript:void(0);" title="回到顶部"></a>
+        </div>
+        <div id="include">
+            <div class="mainline">
+            </div>
+            <div id="main" style="margin-top:0px;margin-bottom: 0px;">
+                <div class="activity">
+                    <div class="cut_line">
+                    </div>
+                    <div class="title">
+                    </div>
+                    <div class="cut_line">
+                    </div>
+                    <div class="sub_title">
+                        <!-- Slider -->
+                        <div class="activity_slider">
+                            <div id='coin-slider'>
+                                <a href="http://v.youku.com/v_show/id_XNTI2MjM5NDI0.html" target="_blank">
+                          <img src='./images/activity/b1.jpg' >
+                        </a>
+                                <a href="http://v.youku.com/v_show/id_XNTI2NTE1Mzg4.html" target="_blank">
+                          <img src='./images/activity/b2.jpg' >
+                        </a>
+                                <a href="http://v.youku.com/v_show/id_XNTI2NjI1MDg4.html" target="_blank">
+                          <img src='./images/activity/b3.jpg' ></a>
+                                <a href="http://v.youku.com/v_show/id_XNTI2NjI5MzM2.html" target="_blank">
+                          <img src='./images/activity/b4.jpg' ></a>
+                            </div>
+                        </div>
+                        <!-- END Slider -->
+                        <div class="program_detail">
+                            <div class="program_title">
+                                <p>
+                                    节目介绍
+                                </p>
+                            </div>
+                            <div class="program_ct_line">
+                            </div>
+                            <div class="program_suggest">
+                                创业改变命运！
+                                <br/>
+                                2013年全球华人创业季，蓄势待发！
+                                <br/>
+                                全球华人大型创业季播真人秀《爱拼才会赢》
+                                <br/>
+                                横空出世！
+                                <br/>
+                                <br/>
+                                见证创业疯子的热血与激情！
+                                <br/>
+                                闪耀全球华商的荣光和梦想！
+                                <br/>
+                                你还在犹豫什么？
+                                <br/>
+                                寻找中国好项目，亿元创业基金等你来拿！
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- stars -->
+                    <div class="stars">
+                        <div class="stars_title">
+                            导师团队
+                        </div>
+                        <div class="stars_teachers">
+                            <div class="teacher_bar">
+                                <div class="teach_01">
+                                    <img src="./images/activity/daoshi1.png" />
+                                    <span id="teach_01">
+                                        敬请期待
+                                    </span>
+                                </div>
+                                <div class="teach_02">
+                                    <img src="./images/activity/daoshi1.png" />
+                                    <span id="teach_02">
+                                        敬请期待
+                                    </span>
+                                </div>
+                                <div class="teach_03">
+                                    <img src="./images/activity/daoshi1.png" />
+                                    <span id="teach_03">
+                                        敬请期待
+                                    </span>
+                                </div>
+                                <div class="teach_04">
+                                    <img src="./images/activity/daoshi1.png" />
+                                    <span id="teach_04">
+                                        敬请期待
+                                    </span>
+                                </div>
+                                <div class="teach_05">
+                                    <img src="./images/activity/daoshi1.png" />
+                                    <span id="teach_05">
+                                        敬请期待
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="yue_t_bar">
+                            <div class="yue_teacher">
+                                <div id="yue_teach_01" class="yue_detail">
+                                    <div class="yue_button">
+                                        <a href="http://yuejian.me"></a>
+                                    </div>
+                                    <div class="yue_teacher_detail">
+                                        <p class="t_name">
+                                            导师火热招募中!
+                                        </p>
+                                        </br>
+                                    </div>
+                                </div>
+                                <div id="yue_teach_02" class="yue_detail">
+                                    <div class="yue_button">
+                                        <a href="http://yuejian.me"></a>
+                                    </div>
+                                    <div class="yue_teacher_detail">
+                                        <p class="t_name">
+                                            导师火热招募中!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="yue_teach_03" class="yue_detail s">
+                                    <div class="yue_button">
+                                        <a href="http://yuejian.me"></a>
+                                    </div>
+                                    <div class="yue_teacher_detail">
+                                        <p class="t_name">
+                                            导师火热招募中!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="yue_teach_04" class="yue_detail">
+                                    <div class="yue_button">
+                                        <a href="http://yuejian.me"></a>
+                                    </div>
+                                    <div class="yue_teacher_detail">
+                                        <p class="t_name">
+                                            导师火热招募中!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="yue_teach_05" class="yue_detail">
+                                    <div class="yue_button">
+                                        <a href="http://yuejian.me"></a>
+                                    </div>
+                                    <div class="yue_teacher_detail">
+                                        <p class="t_name">
+                                            导师火热招募中!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END stars -->
+                    <!-- banner -->
+                    <br>
+                    <div class="banner">
+                        <div class="banner_title">
+                            学员团队
+                            <a id="link_info" href="javascript:void(0);"><span id="banner_info1" class="banner_info">学员信息</span></a>
+                            /
+                            <a id="link_photo" href="javascript:void(0);"><span id="banner_info2" class="banner_info" style="color:#FFFFFF;">活动照片</span></a>
+                            /
+                            <a id="link_video" href="javascript:void(0);"><span id="banner_info3" class="banner_info">活动视频</span></a>
+                            <a id="link_more" style="margin-top:0;margin-left:630px;" href="javascript:void(0);"><span class="banner_more">更多</span></a>
+                        </div>
+                        <div id="banner_if" class="banner_if" style="display:none">
+                            <p>学员火热招募中!</p>
+                        </div>
+                        <div id="banner_photo" class="banner_photo">
+                            <ul class="gallery clearfix">
+                                <li>
+                                    <a href="./images/activity/1.jpg" rel="gallery" class="fancybox" title="这位选手的项目是婚礼影像服务的。快要结婚的朋友们要注意了！"><img src="./images/activity/t_1.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="./images/activity/2.jpg" rel="gallery" class="fancybox" title="芝加哥大学的学生会主席也来参赛了！他的名字很有意思叫马千里！"><img src="./images/activity/t_2.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="./images/activity/3.jpg" rel="gallery" class="fancybox" title="这位选手来自电子商务行业，帮助品牌商进行网络渠道拓展。"><img src="./images/activity/t_3.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="./images/activity/4.jpg" rel="gallery" class="fancybox" title="这位选手将互联网与舞蹈做结合。这个想法你们怎么看？"><img src="./images/activity/t_4.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="./images/activity/5.jpg" rel="gallery" class="fancybox" title="这位女选手的项目是手绘服装。看来只要感想敢做就能接近成功啊！"><img src="./images/activity/t_5.png" height="130px" width="174px"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="banner_video" class="banner_video" style="display:none">
+                            <ul class="gallery clearfix">
+                                <li>
+                                    <a href="http://player.opengg.me/player.php/sid/XNTI1NzI1MDUy/v.swf" class="video"
+                                    title="满怀梦想,寻找心中的项目"><img src="./images/activity/v-1.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="http://player.opengg.me/player.php/sid/XNTI1NzI1MDUy/v.swf" class="video"
+                                    title="IT美女畅谈互联网"><img src="./images/activity/v-2.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="http://player.opengg.me/player.php/sid/XNTI1NzI1MDUy/v.swf" class="video"
+                                    title="服装也搞DIY"><img src="./images/activity/v-3.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="http://player.opengg.me/player.php/sid/XNTI1NzI1MDUy/v.swf" class="video"
+                                    title="中西合璧搞创业"><img src="./images/activity/v-4.png" height="130px" width="174px"></a>
+                                </li>
+                                <li>
+                                    <a href="http://player.opengg.me/player.php/sid/XNTI1NzI1MDUy/v.swf" class="video"
+                                    title="项目宣传片"><img src="./images/activity/v-5.png" height="130px" width="174px"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hudong">
+                        <div class="taolunqu">
+                            <div class="tl_title">
+                                讨论区
+                            </div>
+                            <div class="ct_line">
+                            </div>
+                            <div class="weibo_tl">
+                                <wb:livestream skin="black" topic="%E7%88%B1%E6%8B%BC%E6%89%8D%E4%BC%9A%E8%B5%A2|%E7%88%B1%E6%8B%BC%E6%89%8D%E4%BC%9A%E8%B5%A2"
+                                width="680" height="500">
+                                </wb:livestream>
+                            </div>
+                        </div>
+                        <div class="sign_up">
+                            <div class="sign_title">
+                                报名方式
+                            </div>
+                            <div class="su_ct_line">
+                            </div>
+                            <div class="sign_info">
+                                <p>
+                                    报名热线：
+                                </p>
+                                <br/>
+                                <p class="w">
+                                    (021)51697588-112/106
+                                </p>
+                                <br/>
+                                <p>
+                                    邮箱:
+                                </p>
+                                <br/>
+                                <p class="w">
+                                    thewinner@v2006.tv
+                                </p>
+                                <br/>
+                            </div>
+                            <br/>
+                            <div class="sign_title">
+                                关注我们
+                            </div>
+                            <div class="su_ct_line">
+                            </div>
+                            <div class="sign_info">
+                                <p style="float: left;">
+                                    官方微博：@东南卫视-爱拼才会赢
+                                </p>
+                                <img style="display:block;width:13px" src="./images/activity/blue_v.png">
+                                <br/>
+                                <div id="gz_apchy">
+                                    <wb:follow-button uid="1363504970" type="red_1" width="67" height="24">
+                                    </wb:follow-button>
+                                </div>
+                                <p style="float: left;margin-top: 17px;margin-bottom: 14px;">
+                                    官方微信：
+                                </p>
+                                <br/>
+                                <div class="barcode">
+                                    <img src="./images/activity/apchy_barcode.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity_foot">
+                    <div class="logo">
+                        <a href="#"><img style="width:196px;height:27px;" src="./images/activity/logo1.png"/></a>
+                        <a href="#"><img style="width:105px;height:27px;" src="./images/activity/logo2.png"/></a>
+                    </div>
+                    <div class="copyright">
+                        Copyright©2013 约见网 yuejian.me 版权所有 京ICP证060288号
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="flog" class="log">
+        </div>
+        <div id="bflog" class="log">
+        </div>
+        <include file="./Home/Tpl/pages/head_in_help.html,./Home/Tpl/pages/logindiv.html,./Home/Tpl/pages/registerdiv.html"
+        />
+        <!--script type="text/javascript" src="./scripts/function/bidding.js"></script-->
+        <script type="text/javascript" src="./scripts/pagejs/jquery.fancybox.pack.js">
+                                
+        </script>
+        <script type="text/javascript" src="./scripts/pagejs/index.js">
+                                                                            
+        </script>
+        <script type="text/javascript" src="./scripts/pagejs/head.js">
+                                                                            
+        </script>
+        <script type="text/javascript" src="./scripts/pagejs/activity.js">
+                                                                            
+        </script>
+        <!--script type="text/javascript" src="./scripts/pagejs/log_reg.js"></script-->
+        <script type="text/javascript" src="./scripts/function/sidebar.js">
+                                                                            
+        </script>
+    </body>
+
 </html>
